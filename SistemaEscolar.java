@@ -1,7 +1,6 @@
 public class SistemaEscolar {
     public static void main(String[] args) {
         // Todas las clases acceden a la MISMA instancia del GestorNotas
-
         // 1. Configurar el gestor principal
         GestorNotas gestor = GestorNotas.getInstancia();
 
@@ -21,7 +20,7 @@ public class SistemaEscolar {
         stats.mostrarEstadisticas();
 
         // 5. Demostrar que es la misma instancia
-        System.out.println("\n🔍 Demostración Singleton:");
+        System.out.println("\n Demostración Singleton:");
         GestorNotas otraReferencia = GestorNotas.getInstancia();
         System.out.println("Misma instancia? " + (gestor == otraReferencia));
         System.out.println("Total alumnos desde otra referencia: " +
