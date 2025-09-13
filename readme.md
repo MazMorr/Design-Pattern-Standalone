@@ -138,18 +138,4 @@ Promedio Ciencias: 8.38
 Promedio Historia: 7.50
 ```
 
-## 🎓 Materias Incluidas
-
-1. Matemáticas
-2. Ciencias  
-3. Historia
-
-## 🔮 Posibles Mejoras
-
-- Persistencia de datos en archivos
-- Interfaz gráfica de usuario
-- Manejo de excepciones más robusto
-- Sistema de autenticación de usuarios
-- Ampliación del número de materias
-
 Este proyecto demuestra una implementación práctica del patrón Singleton en un sistema de gestión académica, mostrando cómo mantener la consistencia de datos a través de múltiples componentes.
